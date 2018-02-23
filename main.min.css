@@ -13,10 +13,14 @@
 /*#contenedor_login{background-color:rgba(192,192,192);height:100%;width:100%;-webkit-transition:all 1s ease;-o-transition:all 1s ease;z-index:10000}#login{height:50%;width:200px;position:absolute;top:0;left:0;right:0;bottom:0;margin:auto}*/
 
 #form-log{top: 170px;left: 0px}.form-header{color: #fff;text-align: center;margin-top: -50px;margin-bottom: 3rem;padding: 1rem;border-radius: 2px}
-.card .card-body p {margin-bottom: 1rem}.font-small{font-size: 0.8rem}
+.card .card-body p {margin-bottom: 1rem}.font-small{font-size: 0.8rem}.card{width:28rem}
 /*.modal{position: fixed;top: 0;right: 0;bottom: 0;left: 0;z-index: 1050;display: none;overflow: hidden;-webkit-overflow-scrolling: touch;outline:0}
 .fade{opacity: 0;-webkit-transition: opacity .15s linear;-o-transition: opacity .15s linear;transition: opacity .15s linear}
 .modal-open .modal{overflow-x: hidden;overflow-y: auto}.side-modal{position: fixed;height: 100%;    width: 100%;z-index: 9999}*/
 label{color:#000}.btn-fb {background-color: #3b5998 !important;color: #fff !important}.btn-fb{padding-left: 61px;text-align: center;}
+.navbar-brand{margin-right:-48rem}.navbar-expand-lg .navbar-nav .nav-link{color:#000}.card.card-cascade .view{border-radius: .25rem}
+.round-box{width: 100px;height: 100px;border-radius: 100%;display:inline-block;margin-top:30pxborder:15px solid #ccc;border-color:#26e413;border-style:solid;margin-left:30px;z-index:11}
+#bike{width:65px;height:65px;margin-top:15px;margin-left:13px;z-index:10}
+@media only screen and (max-width:1280px){#form-log{top:130px}.round-box{margin-top:10px}.pay{width:100%}}
 
 

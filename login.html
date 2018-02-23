@@ -3,30 +3,31 @@
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-		
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+  		<meta http-equiv="x-ua-compatible" content="ie=edge">
 		<title></title>		
-		 <link rel="stylesheet" href="assets/css/bootstrap.min.css">		 
+		<link rel="stylesheet" href="assets/css/bootstrap.min.css">		 
 		 <link rel="stylesheet" href="assets/css/mdb.min.css">
 		 <link rel="stylesheet" href="assets/css/main.min.css">
 		 
 
 		
 	</head>
-	<body style="background-color: #000;">
+	<body class="mobile-shift" style="background-color: #000;">
 	
 	
 	<div class="container">
 		
 	<div class="row">
 	<div class="col"></div>
-	<div id="form-log" class="col align-self-center">
-		<div class="card col" style="width:28rem;">
+	<div id="form-log" class="col align-self-center ">
+		<div id="cen" class="card col" style="/*width:28rem;*/">
 			<div class="card-body">
 				<div class="form-header light-green accent-3">
 					<img src="img/dundo/baika_logo_morado.png" width="50%" height="50%">
 					
 				</div>
-				<form method="POST" action="valida.php">	
+				<form method="POST" action="welcome.html">	
 				<div class="row">
 					<div class="col">
 					<!--	<div class="md-form">
@@ -90,13 +91,13 @@
             		<div class="col">
             			<div class="md-form">
                    		 	<i class="fa fa-user prefix grey-text"></i>
-                   	 		<input type="text" id="name" class="form-control validate" placeholder="Nombre(s)" name="name">
+                   	 		<input type="text" id="name" class="form-control " placeholder="Nombre(s)" name="name" novalidate>
                    			
                 		</div>
             		</div>
             		<div class="col">
             			<div class="md-form">                   		 	
-                   	 		<input type="text" id="app" class="form-control validate" placeholder="Apellidos" name="app">
+                   	 		<input type="text" id="app" class="form-control " placeholder="Apellidos" name="app">
                    			
                 		</div>
             		</div>
@@ -105,7 +106,7 @@
             		<div class="col">
             			<div class="md-form">
                    		 	<i class="fas fa-birthday-cake prefix grey-text"></i>
-                   	 		<input type="date" id="fecha" class="form-control validate" placeholder="Fecha de Nacimiento" name="fecha">
+                   	 		<input type="date" id="fecha" class="form-control" placeholder="Fecha de Nacimiento" name="fecha">
                    			
                 		</div>
             		</div>
@@ -124,18 +125,18 @@
             	</div>
                 <div class="md-form">
                     <i class="fa fa-envelope prefix grey-text"></i>
-                    <input type="email" id="mail" class="form-control validate" placeholder="Correo Electronico" name="mail">
+                    <input type="email" id="mail" class="form-control" placeholder="Correo Electronico" name="mail">
                   
                 </div>
 
                 <div class="md-form">
                     <i class="fa fa-lock prefix grey-text"></i>
-                    <input type="password" id="pass1" class="form-control validate" placeholder="Contraseña" name="pass1">
+                    <input type="password" id="pass1" class="form-control" placeholder="Contraseña" name="pass1">
                     
                 </div>
                  <div class="md-form">
                     <i class="fa fa-lock prefix grey-text"></i>
-                    <input type="password" id="pass2" class="form-control validate" placeholder="Repite Contraseña" name="pass2"> 
+                    <input type="password" id="pass2" class="form-control" placeholder="Repite Contraseña" name="pass2"> 
                    
                 </div>
 
